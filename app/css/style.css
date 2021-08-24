@@ -731,6 +731,71 @@ header .white-container .flex-row a:hover{color: var(--orange);}
   padding: 0 0 0 90px;
 }
 
+/*we-help-many*/
+.we-help-many {
+    width: 100%;
+    color: var(--white);
+    background-color: var(--gray-2);
+    background-image: url(../images/mask-group.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 124px 0;
+    text-align: center;
+}
+.we-help-many  h1 {
+    margin: 0;
+    color: var(--white);
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 3.375rem;
+    line-height: 69px;
+    text-align: center;
+} 
+.we-help-many  h4 {
+    margin: 29px 0 0;
+    color: var(--orange);
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 2.1875rem;
+    line-height: 43px;
+} 
+.we-help-many  p {
+    margin: 58px auto 0;
+    max-width: 750px;
+    color: var(--white);
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    margin-bottom: 36px;
+} 
+.we-help-many a:first-child {
+    color: var(--orange);
+    background-color: var(--white);
+}
+.we-help-many a:first-child:hover, .we-help-many a:first-child:active{ 
+    background-color:  var(--gray-4a);
+}
+.we-help-many a { 
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--orange);
+    border-radius: 3px;
+    padding: 17px 36px 19px 37px;
+    margin: 11px 5px 7px;
+    display: inline-block; 
+    cursor: pointer;
+}
+.we-help-many a:hover, .we-help-many a:active{ 
+    color: var(--white);
+    background-color: var(--gray-4a);
+}
+
 /*FOOTER*/
 /*orange-footer-bg*/
 .orange-footer-bg{background-color: var(--orange);}
@@ -979,6 +1044,8 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     .ngoo-slideshow-container {
         padding-top: 107px;
     }
+    /*main we-help-many*/
+    .we-help-many {padding: 60px 0;}
     /*bottom nav*/
     .bottom-nav .bottom-box-col-i {
         padding: 40px;
@@ -991,7 +1058,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
             "col-2"
             "col-3"
             "col-4"
-    }
+    }  
 }
 @media screen and (max-height: 450px) {
     /*top white-container*/
