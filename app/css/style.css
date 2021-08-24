@@ -966,6 +966,9 @@ header .white-container .flex-row a:hover{color: var(--orange);}
 }
 
 /*our-partners*/
+.our-partners-con{
+    padding: 114px 0 0;
+}
 .our-partners {
     margin: 60px 0 128px;
     display: flex;

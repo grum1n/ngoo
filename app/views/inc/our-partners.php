@@ -1,5 +1,5 @@
 <section class="white-container">
-    <div class="container">
+    <div class="container our-partners-con">
         <div class="section-heading">
             <h1>Our <span class="text-orange">Partners</span></h1>
             <p class="text-small">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
