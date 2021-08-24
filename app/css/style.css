@@ -351,6 +351,7 @@ main {
 }
 
 /*FOOTER*/
+/*orange-footer-bg*/
 .orange-footer-bg{background-color: var(--orange);}
 .orange-footer-bg .container {
     display: flex;
@@ -366,7 +367,18 @@ main {
     font-size: 1.75rem;
     line-height: 36px;
 }
-
+/*gray-footer-bg*/
+.gray-footer-bg{
+    padding: 50px 0;
+    color: var(--white);
+    background-color: var(--gray-3);
+    text-align: left;
+    font-family: var(--openSans);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 22px;
+}
+  
 
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
