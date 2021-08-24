@@ -150,7 +150,29 @@ button.c2 span:after {
 }
 button.c2:hover span {padding-right: 25px;} 
 button.c2:hover span:after {opacity: 1;right: 0;}
-
+/*Button to top*/
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99; 
+    font-family: var(--roboto);
+    font-size: 2rem;
+    border:  2px solid var(--orange);
+    outline: none; 
+    background-color: var(--gray-2); 
+    color: var(--white);
+    cursor: pointer; 
+    padding: 6px 15px; 
+    border-radius: 50%; 
+} 
+#myBtn:hover {
+    background-color: var(--orange);
+    color: var(--white);
+    border: 2px solid var(--white);
+}
+  
 /*HEADER*/
 /*Top orange line*/
 header {

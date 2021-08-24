@@ -8,6 +8,7 @@
     <meta name="author" content="grumin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ngoo | index</title>
+    <link href="app/css/jquery.fancybox.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c630c8eb00.js" crossorigin="anonymous"></script> 
