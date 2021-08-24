@@ -46,9 +46,6 @@ a {text-decoration: none; }
 .col-8 {grid-area: col-8;}
 .col-9 {grid-area: col-9;}
 
-.compensate-for-scrollbar .site-header {
-  padding-right: 17px;/*OK reikalingas kad nustumtu skrollbara*/
-}
 .container{
   margin: 0 auto;
   padding: 0 15px;
@@ -118,7 +115,7 @@ button.g1 span:after {
 button.g1:hover span {padding-right: 25px;} 
 button.g1:hover span:after {opacity: 1;right: 0;}
 
-/**/
+/*c2*/
 button.c2 {
     display: inline-block;
     border-radius: 3px;
@@ -150,6 +147,40 @@ button.c2 span:after {
 }
 button.c2:hover span {padding-right: 25px;} 
 button.c2:hover span:after {opacity: 1;right: 0;}
+
+/*a2*/
+button.a2 {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: var(--orange);
+    border: none;
+    color: var(--white);
+    text-align: center;
+    font-size: 1rem;
+    padding: 17px 34px 19px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    text-transform: uppercase;
+} 
+button.a2:hover {background-color: var(--orange);}
+button.a2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button.a2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    bottom: 1px;
+    transition: 0.5s;
+}
+button.a2:hover span {padding-right: 25px;} 
+button.a2:hover span:after {opacity: 1;right: 0;}
+
 /*Button to top*/
 #myBtn {
     display: none; 
@@ -368,9 +399,112 @@ header .white-container .flex-row a:hover{color: var(--orange);}
 
 
 /*MAIN*/
-main {
-   padding-top: 300px;
+/*NGOO ngoo-Slideshow container */
+.ngoo-slideshow-container {
+    max-width: 1920px;
+    position: relative;
+    margin: auto;
+    padding-top: 231px;
+    background-color: var(--gray-4);
 }
+.ngoo-mySlides {
+    display: none;
+    position:relative;
+}
+.ngoo-fade {
+    -webkit-animation-name: ngoo-fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: ngoo-fade;
+    animation-duration: 1.5s;
+}
+/*NGOO Number text (1/3 etc) */
+.ngoo-numbertext {
+    color: var(--white-f8);
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.slider-content-text {
+    margin-left: 40px;
+    position: absolute;
+    width: 535px;
+    height: 285px;
+    background-color: rgba(41, 40, 40, 0.8);
+    top: 268px;
+    transform: translateY(-50%);
+    border-radius: 5px;
+    left: 10%;
+    color: var(--gray-ba);
+    padding: 5px;
+}
+.slider-content-text h1{
+    margin:0;
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 3.375rem;
+    color: var(--white);
+}
+.ngoo-fade-small-text {padding-bottom: 20px;}
+.hero-slider {
+    vertical-align: middle;
+    width:100%;
+}
+/*NGOO Next & previous buttons */
+.ngoo-prev, .ngoo-next {
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    width: auto;
+    padding: 10px 16px;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    user-select: none;
+}
+/*NGOO Position the "ngoo-prev button" to the right */
+.ngoo-prev {left: 48px;border-radius: 50%;}
+/*NGOO Position the "ngoo-next button" to the right */
+.ngoo-next {right: 48px;border-radius: 50%;}
+/*NGOO On hover, add a black background color with a little bit see-through */
+.ngoo-prev:hover, .ngoo-next:hover {
+    background-color: var(--orange);
+    border-radius: 50%;
+}
+/*NGOO Caption text */
+.ngoo-text {
+    margin: 0;
+    background-color: var(--white);
+    color: var(--gray-2);
+    font-size: 15px;
+    padding: 18px 12px;
+    /* position: absolute; */
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.ngoo-dot-center{
+    text-align:center;
+    background-color: var(--white);
+}
+
+/*NGOO The dots/bullets/indicators */
+.ngoo-dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: var(--gray-ba);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+/*NGOO*/
+.ngoo-active, .ngoo-dot:hover {background-color: var(--gray-2);}
+
+
 
 /*FOOTER*/
 /*orange-footer-bg*/
@@ -504,7 +638,17 @@ main {
     } 
     /*top white-conatiner*/
     header .white-container .flex-row .hide-text {display: none;} 
-    
+    /*HERO*/
+    .slider-content-text {display: none;}
+    /*slider left right*/
+    .ngoo-prev, .ngoo-next {
+        position: absolute;
+        bottom:40%;
+    }
+    /*hero slider*/
+    .ngoo-slideshow-container {
+        padding-top: 229px;
+    }
 }
 @media screen and (max-width: 850px){
     header .white-container > ul > li{margin-left: 15px;}
@@ -549,6 +693,10 @@ main {
     header .white-container .flex-row > div{margin-left: 0;}
     header .gray-3-container{
         display: none;
+    }
+    /*HERO Slider*/
+    .ngoo-slideshow-container {
+        padding-top: 107px;
     }
     /*bottom nav*/
     .bottom-nav .bottom-box-col-i {
