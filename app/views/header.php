@@ -12,4 +12,40 @@
             </ul>
         </div>
     </div>
+    <div class="white-container container">
+        <div class="logo">
+            <a href="index.php"><img src="app/images/logo-top.png" alt="Ngoo logo"></a>
+        </div>
+        <ul>
+            <li class="col-1 flex-row">
+                <a href="mailto:info@ngoocharity.com" title="email adress"><i class="far fa-envelope"></i></a>
+                <div class="hide-text">
+                    <h3>Mail:</h3>
+                    <p><a href="mailto:info@ngoocharity.com">info@ngoocharity.com</a></p>
+                </div>
+            </li>
+            <li class="col-2 flex-row">
+                <a class="header-links" href="tel:+370654321987" title="phone number"><i class="fas fa-phone-alt"></i></a>
+                <div class="hide-text">
+                    <h3>Call Us:</h3>
+                    <p><a href="tel:+370654321987">+370654321987</a></p>
+                </div>
+            </li>
+            <li class="col-3 flex-row">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.php">Home</a>
+                    <a href="">About</a>
+                    <a href="">Couses</a>
+                    <a href="">Pages</a>
+                    <a href="">Events</a>
+                    <a href="">Contact</a>
+                 </div>
+                 <div class="menu-button">
+                 <a href="javascript:void(0)" onclick="openNav()"><i class="fa fa-bars"></i></a>
+                 </div>
+            </li>
+            <li class="col-4"><button class="g1"><span>DONATE NOW</span></button></li>
+        </ul>
+    </div>
 </header>
