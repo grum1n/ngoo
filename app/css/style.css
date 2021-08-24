@@ -131,6 +131,7 @@ button.c2 {
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    text-transform: uppercase;
 } 
 button.c2:hover {background-color: var(--gray-2);}
 button.c2 span {
@@ -343,27 +344,46 @@ header .white-container .flex-row a:hover{color: var(--orange);}
 .dropdown .dropdown-content a:hover {background-color: var(--gray-ba);color: var(--gray-2);}
 .show {display: block;}
 
+
+/*MAIN*/
+main {
+   padding-top: 300px;
+}
+
 /*FOOTER*/
 .orange-footer-bg{background-color: var(--orange);}
 .orange-footer-bg .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 15px;
 }
 .orange-footer-bg .container h5{
-  margin: 0;
-  color:var(--white);
-  font-family: var(--lora);
-  font-weight: 700;
-  font-size: 1.75rem;
-  line-height: 36px;
+    margin: 0;
+    color:var(--white);
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 36px;
 }
 
 
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
+@media screen and (max-width: 1050px) {
+    /*footer orange-footer-bg*/
+    .orange-footer-bg .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-bottom: 40px;
+      text-align: center;
+    }
+    .orange-footer-bg button {
+       margin-top: 20px; 
+    }
+}
 
 @media screen and (max-width: 950px){
     header .orange-container .col-1{
