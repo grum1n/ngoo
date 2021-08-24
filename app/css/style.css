@@ -964,7 +964,15 @@ header .white-container .flex-row a:hover{color: var(--orange);}
    line-height: 27px;
    margin: 0;
 }
-  
+
+/*our-partners*/
+.our-partners {
+    margin: 60px 0 128px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.our-partners img{margin: 10px;}
 
 /*FOOTER*/
 /*orange-footer-bg*/
@@ -1078,6 +1086,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     .orange-footer-bg button {
        margin-top: 20px; 
     }
+    .our-partners {margin: 60px 0;}
     /*footer orange-footer-bg*/
     .bottom-nav .bottom-box-col-i {
         padding:30px;

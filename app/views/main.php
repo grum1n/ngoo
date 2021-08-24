@@ -54,5 +54,7 @@ include('app/views/inc/our-volunteers.php');
 include('app/views/inc/main-gallery.php');
 //Upcoming Events
 include('app/views/inc/upcoming-events.php');
+//OUR PARTNERS
+include('app/views/inc/our-partners.php');
 ?>
 </main>
