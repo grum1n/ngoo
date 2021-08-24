@@ -342,9 +342,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     justify-content: flex-start;
     align-items: center;
 }
-.gray-3-container li{
-   margin: 0 20px;
-}
+.gray-3-container li{margin: 0 20px;}
 .gray-3-container li a{
     color: var(--white);
     font-family: var(--roboto);
@@ -400,9 +398,8 @@ header .white-container .flex-row a:hover{color: var(--orange);}
 .dropdown .dropdown-content a:hover {background-color: var(--gray-ba);color: var(--gray-2);}
 .show {display: block;}
 
-
 /*MAIN*/
-/*NGOO ngoo-Slideshow container */
+/*HERO ngoo-Slideshow container */
 .ngoo-slideshow-container {
     max-width: 1920px;
     position: relative;
@@ -569,7 +566,94 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     color: var(--white);
     background-color: var(--gray-2);
 }
-  
+/* Urgent Cause*/
+.urgent-cause {
+    background-color: var(--gray-4);
+    padding: 134px 15px 205px;
+}
+.urgent-cause-box {
+    display: grid;
+    grid-gap: 33px; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "col-1 col-2"
+}
+.urgent-left {
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    color: var(--gray-4a);
+}
+.urgent-left h1 {
+    text-align: left;
+    color: var(--white);
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 3.375rem;
+    line-height: 69px;
+    margin: 0 0 44px;
+    display: block;
+}   
+.head-underline:after{
+    content:"";
+    display: block;
+    width: 100px;
+    border-top: 3px solid var(--orange);
+    margin: 32px 0 32px;
+}
+.urgent-left p {color:var(--gray-ba);margin: 0 0 60px;}
+.urgent-left h6 {
+    margin: 0 0 14px;
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 1.3125rem;
+    line-height: 27px;
+    color: var(--orange);
+}
+.orange-long-line {
+    position: relative;
+    padding-bottom: 19px;
+    width: 100%;
+}
+.orange-long-line:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 9px;
+    background-color: var(--white);
+    border-radius: 10px;
+    z-index: 1;
+}
+.orange-long-line:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 80%;
+    height: 9px;
+    background-color: var(--orange);
+    border-radius: 10px;
+    z-index: 2;
+}
+.urgent-right {
+    position: relative;
+    width: 100%;
+    height: 436px;
+    background-image: url(../images/lagos-techie.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 171px;
+    padding-bottom: 20px;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}  
 
 /*FOOTER*/
 /*orange-footer-bg*/
@@ -654,7 +738,6 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     color: var(--orange);
 }
 .social-icon-padding i:hover {color: var(--white);}
-  
   
 /*gray-footer-bg*/
 .gray-footer-bg{
@@ -749,6 +832,23 @@ header .white-container .flex-row a:hover{color: var(--orange);}
         max-width: 350px;
     }
     .we-need-button a { margin: 50px 0;}
+    /*urgent-couse*/
+    .urgent-cause {padding: 60px 0;}
+    .urgent-cause-box {
+        display: grid;
+        grid-gap: 33px; 
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        grid-template-areas: 
+        "col-1"
+        "col-2"
+    }
+    .urgent-right {
+        background-image: url(../images/lagos-techie.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 50px;
+    }
 }       
 
 @media screen and (min-width: 650px) {
