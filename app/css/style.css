@@ -1,0 +1,87 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+:root {
+    --orange: #ff7000;
+    --white: #ffffff;
+    --white-f8: #f8f8f8;
+    --white-fa:#faf4f0;
+    --white-f1:#f1f1f1;
+    --gray-ba: #bababa;
+    --gray-4a:#4a4a4a;
+    --gray-4: #444444;
+    --gray-3: #333333;
+    --gray-2: #222222;
+    --black: #000000;
+    --roboto: 'Roboto', sans-serif;
+    --lora:'Lora', serif;
+    --openSans: 'Open Sans', sans-serif;
+}
+html {
+  font-size: 16px;
+  font-family: var(--roboto);
+}
+body {margin: 0; }
+
+a {text-decoration: none; }
+
+.orange-bg {background-color: var(--orange);}
+.white-bg {background-color: var(--white);}
+.gray-bg {background-color: var(--gray-3);}
+
+.text-white {color:var(--white);}
+.text-orange {color:var(--orange);}
+.text-gray-3 {color:var(--gray-3);}
+
+.col-1 { grid-area: col-1;}
+.col-2 { grid-area: col-2;}
+.col-3 {grid-area: col-3;}
+.col-4 {grid-area: col-4;}
+.col-5 {grid-area: col-5;}
+.col-6 {grid-area: col-6;}
+.col-7 {grid-area: col-7;}
+.col-8 {grid-area: col-8;}
+.col-9 {grid-area: col-9;}
+
+.compensate-for-scrollbar .site-header {
+  padding-right: 17px;/*OK reikalingas kad nustumtu skrollbara*/
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+}
+.white-container {text-align: center;background-color: var(--white);}
+.orange-container {text-align: center;background-color: var(--orange);}
+.gray-3-container {text-align: center;background-color: var(--gray-3);}
+
+.flex-container {display: flex;}
+.flex-col-1 {display: flex;flex-direction: column;}
+.flex-row {display: flex;flex-direction: row;align-items: center;}
+.flex-between {display: flex; justify-content: space-between;}
+.flex-end {display: flex; justify-content: flex-end;}
+
+.section-heading h1{
+  font-family: var(--lora);
+  font-weight: 700;
+  font-size: 3.375rem;
+  line-height: 69px;
+  color: var(--gray-3);
+}
+.section-heading h1:after {
+  content:"";
+  display: block;
+  width: 100px;
+  border-top: 3px solid var(--orange);
+  margin: 22px auto 32px;
+}
+.section-heading .text-small{
+  font-family: var(--roboto);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+}
