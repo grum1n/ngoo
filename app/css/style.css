@@ -85,3 +85,61 @@ a {text-decoration: none; }
   font-weight: 400;
   line-height: 24px;
 }
+
+/*HEADER*/
+/*Top orange line*/
+header {
+    background-color:var(--white);
+    overflow: hidden;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index:100;
+}
+header .orange-container .container{
+    color: var(--white);
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 55px;
+    grid-template-areas: 
+    "col-1 col-2"
+}
+header .orange-container .container .col-1{
+    text-align: left;
+    padding: 17px 0;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.125rem;
+    line-height: 21px;
+}
+header .orange-container .container > ul{list-style-type: none;margin:0;padding:0;justify-content: flex-end;}
+header .orange-container .container > ul > li > a{
+    padding: 14px 16px;
+    color: var(--white);
+    font-size: 1.5rem;
+    line-height: 28px;
+}
+header .orange-container .container > ul > li > a:hover, header .orange-container .container > ul > li > a:active{
+    color: var(--gray-3);
+    cursor: pointer;
+}
+header .orange-container .container > ul > li:nth-child(3) > a{
+    background-color: var(--gray-3);
+    padding: 14px 16px 13px;
+    cursor: pointer;
+}
+header .orange-container .container > ul > li:nth-child(3) > a:hover{
+    background-color: var(--white);
+    color: var(--gray-3);
+}
+
+/*MEDIA SCREEN !!!*/
+/*MEDIA SCREEN !!!*/
+/*MEDIA SCREEN !!!*/
+
+@media screen and (max-width: 950px){
+   header .orange-container .col-1{
+      display: none;
+   }  
+}
