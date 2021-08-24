@@ -48,5 +48,7 @@ include('app/views/inc/urgent-couse.php');
 include('app/views/inc/how-help.php');
 //WE HELP MANY PEOPLE
 include('app/views/inc/we-help-many.php');
+//OUR VOLUNTEERS SAYS
+include('app/views/inc/our-volunteers.php');
 ?>
 </main>
