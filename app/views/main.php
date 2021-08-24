@@ -50,5 +50,7 @@ include('app/views/inc/how-help.php');
 include('app/views/inc/we-help-many.php');
 //OUR VOLUNTEERS SAYS
 include('app/views/inc/our-volunteers.php');
+//GALLERY
+include('app/views/inc/main-gallery.php');
 ?>
 </main>
