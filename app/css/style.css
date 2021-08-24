@@ -367,6 +367,74 @@ main {
     font-size: 1.75rem;
     line-height: 36px;
 }
+
+/*bottom-nav*/
+.bottom-nav {
+    width: 100%;
+    color: var(--white);
+    background-color: var(--gray-2);
+    background-image: url(../images/mask-group.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 123px center;
+}
+.bottom-box-col-i {
+    padding: 121px 15px 144px;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "col-1 col-2 col-3 col-4"
+}
+.bottom-nav .bottom-box-col-i li {margin: 8px 0 8px;}
+.bottom-nav .bottom-box-col-i li:first-child {
+    color: var(--orange);
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 24px;
+}
+.bottom-nav .bottom-box-col-i a {
+    color:var(--white); 
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 22px;
+    text-decoration: none;
+}
+.bottom-nav .bottom-box-col-i a:hover, .bottom-box-col-i a:active {
+    color:var(--orange); 
+}
+.bottom-nav-boxes {
+    margin-top: 0;
+    text-align: left;
+    list-style: none;
+    padding: 0 25px 0 0;
+}
+.bottom-nav-boxes img {max-width: 158px;}
+.chevron-icon-size {
+    font-size: 0.7rem;
+    padding: 0 5px;
+}
+.white-icon-align {display: flex;}
+.white-icon-padding { padding-right: 9px;}
+.heading-orange-line li:first-child:after {
+    content:"";
+    display: block;
+    width: 50px;
+    border-top: 1px solid var(--orange);
+    margin: 16px 0 26px;
+}
+.social-icon-padding i  {
+    margin: 28px 32px 0 0;
+    font-size: 1.5rem;
+    line-height: 28px;
+    color: var(--orange);
+}
+.social-icon-padding i:hover {color: var(--white);}
+  
+  
 /*gray-footer-bg*/
 .gray-footer-bg{
     padding: 50px 0;
@@ -394,6 +462,17 @@ main {
     }
     .orange-footer-bg button {
        margin-top: 20px; 
+    }
+    /*footer orange-footer-bg*/
+    .bottom-nav .bottom-box-col-i {
+        padding:30px;
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px 200px;
+        grid-template-areas: 
+        "col-1 col-4"
+        "col-2 col-3"
     }
 }
 
@@ -443,6 +522,19 @@ main {
     header .white-container .flex-row > div{margin-left: 0;}
     header .gray-3-container{
         display: none;
+    }
+    /*bottom nav*/
+    .bottom-nav .bottom-box-col-i {
+        padding: 40px;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        grid-template-areas: 
+            "col-1"
+            "col-2"
+            "col-3"
+            "col-4"
     }
 }
 @media screen and (max-height: 450px) {
