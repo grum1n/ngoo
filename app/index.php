@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="app/css/normalize.css">
 </head>
 <body>
-    
+<?php
+include('app/views/header.php');
+include('app/views/main.php');
+include('app/views/footer.php');
+?>    
 </body>
 </html>
