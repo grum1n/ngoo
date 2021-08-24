@@ -482,7 +482,12 @@ main {
     } 
     /*top white-conatiner*/
     header .white-container .flex-row .hide-text {display: none;} 
+    
 }
+@media screen and (max-width: 850px){
+    header .white-container > ul > li{margin-left: 15px;}
+}
+
 @media screen and (max-width: 800px) {
     /*top white-conatainer*/
     header .white-container > ul {
@@ -498,7 +503,7 @@ main {
     header .white-container button{display: none;}
 }       
 
-@media screen and (min-width: 651px) {
+@media screen and (min-width: 650px) {
     /*top white-line*/
     .menu-button, .sidenav{display: none;}
 }
