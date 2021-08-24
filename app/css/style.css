@@ -85,6 +85,7 @@ a {text-decoration: none; }
   line-height: 24px;
 }
 /*BUTTONS*/
+/*g1*/
 button.g1 {
     margin: 5px;
     display: inline-block;
@@ -116,6 +117,38 @@ button.g1 span:after {
 }
 button.g1:hover span {padding-right: 25px;} 
 button.g1:hover span:after {opacity: 1;right: 0;}
+
+/**/
+button.c2 {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: var(--gray-3);
+    border: none;
+    color: var(--white);
+    text-align: center;
+    font-size: 1rem;
+    padding: 17px 34px 19px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+} 
+button.c2:hover {background-color: var(--gray-2);}
+button.c2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button.c2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    bottom: 1px;
+    transition: 0.5s;
+}
+button.c2:hover span {padding-right: 25px;} 
+button.c2:hover span:after {opacity: 1;right: 0;}
 
 /*HEADER*/
 /*Top orange line*/
@@ -309,6 +342,24 @@ header .white-container .flex-row a:hover{color: var(--orange);}
 } 
 .dropdown .dropdown-content a:hover {background-color: var(--gray-ba);color: var(--gray-2);}
 .show {display: block;}
+
+/*FOOTER*/
+.orange-footer-bg{background-color: var(--orange);}
+.orange-footer-bg .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.orange-footer-bg .container h5{
+  margin: 0;
+  color:var(--white);
+  font-family: var(--lora);
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 36px;
+}
+
 
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
