@@ -842,7 +842,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
 
 /*GALLERY - index page*/
 .white-f1-container .section-heading{padding-top: 115px;}
-.foto {
+.white-f1-container .foto {
     padding-top: 91px;
     padding-bottom: 91px;
     display: grid;
@@ -853,8 +853,8 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     "col-1 col-2 col-3"
     "col-4 col-5 col-6"  
 }
-.foto-box {box-shadow: 0 0 15px var(--gray-2);}
-.foto-box > a > img {
+.white-f1-container .foto-box {box-shadow: 0 0 15px var(--gray-2);}
+.white-f1-container .foto-box > a > img {
     height: auto;
     width: 100%;
     display:block;
@@ -1030,7 +1030,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
         "col-4"
     } 
     /*gallery*/
-    .foto {
+    .white-f1-container .foto {
         margin-top: 55px;
         display: grid;
         grid-gap: 27px;
@@ -1134,7 +1134,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     /*main we-help-many*/
     .we-help-many {padding: 60px 0;}
     /*gallery*/
-    .foto {
+    .white-f1-container .foto {
         margin: 0;
         display: grid;
         grid-gap: 27px;
