@@ -48,4 +48,26 @@
             <li class="col-4"><button class="g1"><span>DONATE NOW</span></button></li>
         </ul>
     </div>
+    <div class="gray-3-container">
+        <div class="container">
+            <ul>
+                <li><a href="index.php">Home <i class="text-orange fas fa-plus"></i></a></li>
+                <li><a href="">About <i class="text-orange fas fa-plus"></i></a></li>
+                <li><a href="">Couses <i class="text-orange fas fa-plus"></i></a></li>
+                <li  class="dropdown">
+                    <button onclick="navMenuFunction()" class="dropbtn">Pages <i class="text-orange fas fa-plus"></i></button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="">link</a>
+                            <a href="">link</a>
+                            <a href="">link</a>
+                        </div>
+                </li>
+                <li><a href="">Events <i class="text-orange fas fa-plus"></i></a></li>
+                <li><a href="">Contact <i class="text-orange fas fa-plus"></i></a></li>
+            </ul>
+        </div>
+    </div>
 </header>
+<div >
+        
+    </div>
