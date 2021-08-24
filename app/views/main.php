@@ -44,5 +44,7 @@
 include('app/views/inc/we-need-help.php');
 //URGENT COUSE
 include('app/views/inc/urgent-couse.php');
+//HOW TO HELP US
+include('app/views/inc/how-help.php');
 ?>
 </main>
