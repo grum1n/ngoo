@@ -39,5 +39,8 @@
       <span class="ngoo-dot" onclick="currentSlide(3)"></span> 
     </div>
 </section>
-    
+<?php
+//WE NEED YOUR HELP
+include('app/views/inc/we-need-help.php');
+?>
 </main>

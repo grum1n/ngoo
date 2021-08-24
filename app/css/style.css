@@ -15,6 +15,7 @@
     --gray-4: #444444;
     --gray-3: #333333;
     --gray-2: #222222;
+    --gray-rgb-41: rgba(41, 40, 40, 0.8);
     --black: #000000;
     --roboto: 'Roboto', sans-serif;
     --lora:'Lora', serif;
@@ -430,7 +431,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     position: absolute;
     width: 535px;
     height: 285px;
-    background-color: rgba(41, 40, 40, 0.8);
+    background-color: var(--gray-rgb-41);
     top: 268px;
     transform: translateY(-50%);
     border-radius: 5px;
@@ -489,7 +490,6 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     text-align:center;
     background-color: var(--white);
 }
-
 /*NGOO The dots/bullets/indicators */
 .ngoo-dot {
     cursor: pointer;
@@ -504,7 +504,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
 /*NGOO*/
 .ngoo-active, .ngoo-dot:hover {background-color: var(--gray-2);}
 
-
+/**/
 
 /*FOOTER*/
 /*orange-footer-bg*/
