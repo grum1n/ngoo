@@ -1522,7 +1522,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     color: var(--gray-2);
 }
 .events-single .col-2 h5 {
-    margin: 30 0 10px;
+    margin: 30px 0 10px;
     font-family: var(--lora);
     font-weight: 700;
     font-size: 1.75rem;

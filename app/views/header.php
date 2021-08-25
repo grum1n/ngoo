@@ -57,9 +57,14 @@
                 <li  class="dropdown">
                     <button onclick="navMenuFunction()" class="dropbtn">Pages <i class="text-orange fas fa-plus"></i></button>
                         <div id="myDropdown" class="dropdown-content">
-                            <a href="">link</a>
-                            <a href="">link</a>
-                            <a href="">link</a>
+                            <a href="pages.php?page=faq">FAQ</a>
+                            <a href="">Team</a>
+                            <a href="">404 Page</a>
+                            <a href="">Gallery</a>
+                            <a href="">Testimonials</a>
+                            <a href="">News Grid</a>
+                            <a href="">News Sidebar</a>
+                            <a href="">News Single</a>
                         </div>
                 </li>
                 <li><a href="pages.php?page=events">Events <i class="text-orange fas fa-plus"></i></a></li>
