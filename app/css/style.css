@@ -406,7 +406,6 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     position: relative;
     margin: auto;
     padding-top: 231px;
-    background-color: var(--gray-4);
 }
 .ngoo-mySlides {
     display: none;
@@ -455,7 +454,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
 .ngoo-prev, .ngoo-next {
     cursor: pointer;
     position: absolute;
-    top:50%;
+    bottom:450px;
     width: auto;
     padding: 10px 16px;
     color: var(--white);
@@ -1114,7 +1113,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     /*slider left right*/
     .ngoo-prev, .ngoo-next {
         position: absolute;
-        bottom:40%;
+        bottom:45%;
     }
     /*hero slider*/
     .ngoo-slideshow-container {
@@ -1259,7 +1258,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     }
     /*HERO Slider*/
     .ngoo-slideshow-container {
-        padding-top: 107px;
+        padding-top: 158px;
     }
     /*main we-help-many*/
     .we-help-many {padding: 60px 0;}
@@ -1281,8 +1280,11 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     /*slider left right*/
     .ngoo-prev, .ngoo-next {
         position: absolute;
-        top:50%;
+        bottom:35%;
     }
+    .ngoo-prev {left: 28px;}
+    .ngoo-next {right: 28px;}
+
     /*upcoming-events start*/
     .upcoming-events {
         text-align: center;
@@ -1290,7 +1292,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     }
     .events-boxes {
         display: grid;
-        grid-gap: 20px 0;
+        grid-gap: 20px;
         grid-template-columns: 1fr;
         grid-auto-rows: auto;
         grid-template-areas: 
@@ -1299,8 +1301,8 @@ header .white-container .flex-row a:hover{color: var(--orange);}
             "col-3"
             "col-4"   
     }
-    .events-boxes-left {padding:15px;max-height: 370px;margin-top: 30px;}
-    .events-boxes-right {padding: 3px;}
+    .events-boxes-left {padding:15px 0;max-height: 370px;margin-top: 30px;}
+    /* .events-boxes-right {padding: 3px;} */
     .events-list {margin: 0 10px 0 0;}
     /*bottom nav*/
     .bottom-nav .bottom-box-col-i {
