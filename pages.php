@@ -19,7 +19,7 @@
 <?php include("app/views/header.php"); ?>
 <!-- page content start -->
 <?php
-    $path = 'app/views/inc/';
+    $path = 'app/views/';
     if ($_GET['page']){
         $page = $_GET['page'];
         $display = $path . $page . '.php';

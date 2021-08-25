@@ -35,7 +35,7 @@
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <a href="index.php">Home</a>
-                    <a href="">About</a>
+                    <a href="pages.php?page=about">About</a>
                     <a href="">Couses</a>
                     <a href="">Pages</a>
                     <a href="">Events</a>
@@ -52,7 +52,7 @@
         <div class="container">
             <ul>
                 <li><a href="index.php">Home <i class="text-orange fas fa-plus"></i></a></li>
-                <li><a href="">About <i class="text-orange fas fa-plus"></i></a></li>
+                <li><a href="pages.php?page=about">About <i class="text-orange fas fa-plus"></i></a></li>
                 <li><a href="">Couses <i class="text-orange fas fa-plus"></i></a></li>
                 <li  class="dropdown">
                     <button onclick="navMenuFunction()" class="dropbtn">Pages <i class="text-orange fas fa-plus"></i></button>
