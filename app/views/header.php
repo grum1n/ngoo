@@ -39,7 +39,7 @@
                     <a href="pages.php?page=couses">Couses</a>
                     <a href="">Pages</a>
                     <a href="pages.php?page=events">Events</a>
-                    <a href="">Contact</a>
+                    <a href="pages.php?page=contact">Contact</a>
                  </div>
                  <div class="menu-button">
                  <a href="javascript:void(0)" onclick="openNav()"><i class="fa fa-bars"></i></a>
@@ -63,7 +63,7 @@
                         </div>
                 </li>
                 <li><a href="pages.php?page=events">Events <i class="text-orange fas fa-plus"></i></a></li>
-                <li><a href="">Contact <i class="text-orange fas fa-plus"></i></a></li>
+                <li><a href="pages.php?page=contact">Contact <i class="text-orange fas fa-plus"></i></a></li>
             </ul>
         </div>
     </div>
