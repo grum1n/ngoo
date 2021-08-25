@@ -57,12 +57,12 @@ include('app/views/inc/we-help-many.php');
 ?>
 <!-- Why Choose Us -->
 <section class="white-container about">
-        <div class="container about-box">
+        <div class="container about-box-why">
             <div class="col-1 about-box-left">
                <h1 class="head-underline">Why <span class="text-orange">Choose </span> Us</h1>
                <p class="text-small">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent.</p>
                 <div class="about-yout">
-                  <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                    <iframe width="420" height="345" src="https://www.youtube.com/embed/I7YAXgT_WLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-2 about-box-right">
