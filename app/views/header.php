@@ -38,7 +38,7 @@
                     <a href="pages.php?page=about">About</a>
                     <a href="pages.php?page=couses">Couses</a>
                     <a href="">Pages</a>
-                    <a href="">Events</a>
+                    <a href="pages.php?page=events">Events</a>
                     <a href="">Contact</a>
                  </div>
                  <div class="menu-button">
@@ -62,7 +62,7 @@
                             <a href="">link</a>
                         </div>
                 </li>
-                <li><a href="">Events <i class="text-orange fas fa-plus"></i></a></li>
+                <li><a href="pages.php?page=events">Events <i class="text-orange fas fa-plus"></i></a></li>
                 <li><a href="">Contact <i class="text-orange fas fa-plus"></i></a></li>
             </ul>
         </div>
