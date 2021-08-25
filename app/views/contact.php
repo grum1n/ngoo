@@ -1,20 +1,4 @@
-<?php
-  // require __DIR__ . '/app/src/app.php';
 
-    //if (empty($error_message)) {//jei nera klaidos zinutes ,ira6o cookies,ir perkrauna puslapi
-     //   if(isset($_POST['submit'])) { 
-      //      setcookie("contact_form_success", 1, time() + (86400), "/");
-      //      header("Refresh:0");
-     //       die();
-     //   }
-
-     //   $contact_form_success = false;//i6trina cookie
-     //   if(isset($_COOKIE['contact_form_success'])) {
-     //       $contact_form_success = true;
-     //       setcookie("contact_form_success", 1, time() - (86400), "/");
-       // }
-  //  }
-?>
 <section class="small-hero">
     <div class="container">
         <h1>Contact</h1>
@@ -53,7 +37,7 @@
             <h1>Send a <span class="text-orange">Message</span> </h1>
             <p>Suveskite duomenis.</p> 
         </div>
-        <form action="contact.php" method="post" class="form-box">
+        <form action="app/views/inc/src/app.php" method="post" class="form-box">
             <div class="col-1">
                 Name*
                 <input type="text" name="vardas" placeholder="Your name" value="" required autofocus>
