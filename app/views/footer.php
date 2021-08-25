@@ -17,8 +17,8 @@
                 <ul class="col-2 bottom-nav-boxes heading-orange-line">
                     <li>WHO WE ARE</li>
                     <li><a href="index.php"><i class="chevron-icon-size fas fa-chevron-right"></i> Home</a></li>
-                    <li><a href=""><i class="chevron-icon-size fas fa-chevron-right"></i> About</a></li>
-                    <li><a href=""><i class="chevron-icon-size fas fa-chevron-right"></i> Couses</a></li>
+                    <li><a href="pages.php?page=about"><i class="chevron-icon-size fas fa-chevron-right"></i> About</a></li>
+                    <li><a href="pages.php?page=couses"><i class="chevron-icon-size fas fa-chevron-right"></i> Couses</a></li>
                     <li><a href=""><i class="chevron-icon-size fas fa-chevron-right"></i> Events</a></li>
                     <li><a href=""><i class="chevron-icon-size fas fa-chevron-right"></i> Contact</a></li>
                 </ul>
