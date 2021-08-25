@@ -1301,7 +1301,7 @@ header .white-container .flex-row a:hover{color: var(--orange);}
             "col-3"
             "col-4"   
     }
-    .events-boxes-left {padding:15px 0;max-height: 370px;margin-top: 30px;}
+    .events-boxes-left {padding:10px;max-height: 370px;margin-top: 30px;}
     /* .events-boxes-right {padding: 3px;} */
     .events-list {margin: 0 10px 0 0;}
     /*bottom nav*/
