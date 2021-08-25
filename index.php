@@ -20,6 +20,7 @@
 include('app/views/header.php');
 include('app/views/main.php');
 include('app/views/footer.php');
-?>    
+?>  
+<script src="app/js/slider.js"></script>  
 </body>
 </html>

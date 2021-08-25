@@ -55,4 +55,4 @@
 <script src="app/js/jquery.js"></script>
 <script src="app/js/jquery.fancybox.min.js"></script>
 <script src="app/js/custom.js"></script>
-<script src="app/js/slider.js"></script>
+
