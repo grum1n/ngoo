@@ -1,6 +1,6 @@
 <section class="white-container">
     <div class="container">
-        <div class="events">
+        <div class="events-content">
         <div class="col-1 events-box">
             <div class="events-data">
                 <h1 class="col-1">24</h1>
