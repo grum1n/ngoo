@@ -1914,6 +1914,14 @@ textarea {
 .faq-grid .downl-brochure i{
     margin-left: 15px; 
 }
+.faq-bottom{
+   text-align: left;
+   display: flex;
+   justify-content: flex-start;
+   max-width: 670px;
+   padding-bottom: 150px;
+}
+
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
