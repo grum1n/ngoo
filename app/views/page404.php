@@ -8,7 +8,7 @@
     <div class="container page404">
         <ul>
             <li class="col-1">
-                <h3>error</h3>
+                <h3>test. show error</h3>
             </li>
             <li class="col-2 flex-col-1">
                  <p>4<span class="text-gray-3">0</span>4</p>
