@@ -2270,6 +2270,7 @@ textarea {
         grid-template-areas: 
         "col-2"
     }
+    .page404 .col-1{display: none;}
 }
 
 @media screen and (max-width: 800px) {
