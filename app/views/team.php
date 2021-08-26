@@ -4,6 +4,98 @@
         <p>Home / Team</p>
     </div>
 </section>
+<section  class="white-container">
+    <div class="container team-profile">
+        <ul class="flex-col-1">
+            <li><img src="app/images/co-founder.jpg" alt="Co founder"></li>
+            <li><h6>Oliver Doel</h6></li>
+            <li>CEO & Founder</li>
+            <li class="flex-around">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </li>
+        </ul>
+        <ul class="flex-col-1">
+            <li><img src="app/images/co-founder.jpg" alt="Co founder"></li>
+            <li><h6>Oliver Doel</h6></li>
+            <li>CEO & Founder</li>
+            <li class="flex-around">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </li>
+        </ul>
+        <ul class="flex-col-1">
+            <li><img src="app/images/co-founder.jpg" alt="Co founder"></li>
+            <li><h6>Oliver Doel</h6></li>
+            <li>CEO & Founder</li>
+            <li class="flex-around">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </li>
+        </ul>
+        <ul class="flex-col-1">
+            <li><img src="app/images/co-founder.jpg" alt="Co founder"></li>
+            <li><h6>Oliver Doel</h6></li>
+            <li>CEO & Founder</li>
+            <li class="flex-around">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </li>
+        </ul>
+        <ul class="flex-col-1">
+            <li><img src="app/images/co-founder.jpg" alt="Co founder"></li>
+            <li><h6>Oliver Doel</h6></li>
+            <li>CEO & Founder</li>
+            <li class="flex-around">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </li>
+        </ul>
+        <ul class="flex-col-1">
+            <li><img src="app/images/co-founder.jpg" alt="Co founder"></li>
+            <li><h6>Oliver Doel</h6></li>
+            <li>CEO & Founder</li>
+            <li class="flex-around">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </li>
+        </ul>
+        <ul class="flex-col-1">
+            <li><img src="app/images/co-founder.jpg" alt="Co founder"></li>
+            <li><h6>Oliver Doel</h6></li>
+            <li>CEO & Founder</li>
+            <li class="flex-around">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </li>
+        </ul>
+        <ul class="flex-col-1">
+            <li><img src="app/images/co-founder.jpg" alt="Co founder"></li>
+            <li><h6>Oliver Doel</h6></li>
+            <li>CEO & Founder</li>
+            <li class="flex-around">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </li>
+        </ul>
+    </div>
+</section>
 <section class="white-container">
     <div class="container team">
         <div class="section-heading">

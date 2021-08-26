@@ -62,6 +62,7 @@ a {text-decoration: none; }
 .flex-row {display: flex;flex-direction: row;align-items: center;}
 .flex-between {display: flex; justify-content: space-between;}
 .flex-end {display: flex; justify-content: flex-end;}
+.flex-around {display: flex; justify-content: space-around;}
 
 .section-heading h1{
   margin: 0;
@@ -1947,12 +1948,52 @@ textarea {
 }
 
 /*PAGE TEAM*/
-.team {
-    padding: 115px 15px;
+.team-profile{
+    padding: 115px 15px 0;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.team-link{
-    padding-top: 60px;
+
+.team-profile ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px;
 }
+.team-profile li{
+    margin-top: 20px;
+    max-width: 260px;
+}
+.team-profile li img{
+    max-width: 260px;
+}
+.team-profile li h6{
+    margin:0;
+    color:var(--orange);
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 1.3125rem;
+    line-height: 27px;
+}
+.team-profile li:nth-child(3){
+    margin:0;
+    color:var(--gray-3);
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 27px;
+}
+.team-profile li:last-child{
+    margin:0;
+    padding: 5px 10px;
+    color:var(--gray-3);
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 27px;
+}
+
+.team {padding: 115px 15px;}
+.team-link{padding-top: 60px;}
 .team-link a { 
     text-align: center;
     font-size: 1rem;
