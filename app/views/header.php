@@ -59,7 +59,7 @@
                         <div id="myDropdown" class="dropdown-content">
                             <a href="pages.php?page=faq">FAQ</a>
                             <a href="pages.php?page=team">Team</a>
-                            <a href="">404 Page</a>
+                            <a href="pages.php?page=page404">404 Page</a>
                             <a href="">Gallery</a>
                             <a href="">Testimonials</a>
                             <a href="">News Grid</a>
