@@ -23,6 +23,7 @@ new web
 <i class="fas fa-chevron-right"></i>
 <i class="fas fa-chevron-left"></i>
 <i class="fas fa-bars"></i>
+<i class="far fa-comment"></i>
 
 ## font family
 
