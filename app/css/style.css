@@ -1929,22 +1929,57 @@ textarea {
     font-weight: 700;
     font-size: 3.375rem;
     line-height: 69px;
-  }
-  .faq-bottom-acordion h1:after{
+}
+.faq-bottom-acordion h1:after{
     content:"";
     display: block;
     width: 100px;
     border-top: 3px solid var(--orange);
     margin: 32px 0 57px;
-  }
-  .faq-bottom-acordion p{
+}
+.faq-bottom-acordion p{
     margin: 0;
     font-family: var(--roboto);
     font-weight: 400;
     font-size: 1rem;
     line-height: 24px;
     color: var(--gray-2);
-  }
+}
+
+/*PAGE TEAM*/
+.team {
+    padding: 115px 15px;
+}
+.team-link{
+    padding-top: 60px;
+}
+.team-link a { 
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--gray-4a);
+    border-radius: 3px;
+    padding: 17px 36px 19px 37px;
+    margin: 11px 5px 7px;
+    display: inline-block; 
+    cursor: pointer;
+}
+.team-link a:hover, .team-link a:active{ 
+    color: var(--white);
+    background-color: var(--gray-2);
+}
+.team-link a:first-child {
+    color: var(--white);
+    background-color: var(--orange);
+}
+.team-link a:first-child:hover, .team-link a:first-child:active{ 
+    background-color:  var(--gray-2);
+}
+
+
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
