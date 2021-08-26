@@ -35,13 +35,10 @@
             </li>
         </ul>  
     </div>
-    <div class="container">
+    <div class="container testimonials flex-col-1">
         <p>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent.</p>
-        <div>
-            <img src="app/images/volunter4.jpg" alt="">
-            <h6>- John Doel</h6>
-            Businessman
-        </div>
-        
+        <img src="app/images/volunter4.jpg" alt="">
+        <h6>- John Doel</h6>
+        Businessman
     </div>
 </section>

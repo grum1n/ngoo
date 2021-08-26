@@ -845,9 +845,13 @@ header .white-container .flex-row a:hover{color: var(--orange);}
     "col-3 col-4"  
     "col-5 col-5"     
 }
+.volunteers-quotes ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 .volunteers-quotes li {
     max-width: 526px;
-    list-style: none;  
 }
 .volunteers-quotes img {
     border-radius: 50%;
@@ -2096,6 +2100,40 @@ textarea {
     height: auto;
     width: 100%;
     display:block;
+}
+
+/*PAGE Testimonials*/
+.testimonials{
+    margin-bottom: 100px;
+    align-items: center;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+}
+.testimonials p{
+    margin: 0;
+    max-width: 800px;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 34px;
+}
+.testimonials img{
+    margin-top: 55px;
+    display: block;
+    border-radius: 50%;
+    max-height: 120px;
+    max-width: 120px;
+    box-shadow: 0 0 15px var(--gray-2);
+}
+.testimonials h6{
+    margin:43px 0 5px;
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 1.3125rem;
+    line-height: 27px;
+    color: var(--orange);
 }
 
 /*MEDIA SCREEN !!!*/
