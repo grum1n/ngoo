@@ -1991,6 +1991,8 @@ textarea {
     font-size: 1.5rem;
     line-height: 27px;
 }
+.team-profile li a{color:var(--gray-4a);}
+.team-profile li a:hover{color:var(--gray-2);}
 
 .team {padding: 115px 15px;}
 .team-link{padding-top: 60px;}
