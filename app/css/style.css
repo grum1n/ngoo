@@ -2513,7 +2513,12 @@ textarea {
                 "col-3"
                 "col-4"
                 "col-5"
-    }   
+    } 
+    /*PAGE 404*/
+    .page404 .col-2 p:first-child{
+        font-size: 4rem;
+        line-height: 50px;
+    }  
 }
 @media screen and (max-height: 450px) {
     /*top white-container*/
