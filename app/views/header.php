@@ -58,7 +58,7 @@
                     <button onclick="navMenuFunction()" class="dropbtn">Pages <i class="text-orange fas fa-plus"></i></button>
                         <div id="myDropdown" class="dropdown-content">
                             <a href="pages.php?page=faq">FAQ</a>
-                            <a href="">Team</a>
+                            <a href="pages.php?page=team">Team</a>
                             <a href="">404 Page</a>
                             <a href="">Gallery</a>
                             <a href="">Testimonials</a>
