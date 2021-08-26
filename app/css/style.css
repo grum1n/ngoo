@@ -1833,6 +1833,87 @@ textarea {
     background-color: var(--gray-2);
     border: 1px solid var(--gray-2);
 }
+
+/*PAGE FAQ*/
+.faq-grid{
+    padding: 115px 15px;
+    display: grid;
+    grid-gap:15px;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "col-1 col-2"
+}
+.faq-grid .col-1{text-align: left;} 
+.faq-grid .col-2 > ul{
+    list-style-type: none;
+    margin: 20px 0;
+    background-color: var(--orange);
+    max-height: 443px;
+    max-width: 370px;
+    color: var(--white);
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    padding: 40px;
+    text-align: left;
+}
+.faq-grid .col-2 li:nth-child(3), .faq-grid .col-2 li:nth-child(4){
+    padding-bottom: 14px;
+    max-width: 275px;
+}
+.faq-grid .col-2 .orange-box-icon {
+    color: var(--white);
+    width: 68px;
+    height: 69px;
+    font-weight: 900;
+    font-size:3.75rem;
+    line-height:69px;
+}
+.faq-grid .col-2 h6{
+    margin:14px 0;
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size:  1.3125rem;
+    line-height: 27px;
+}
+.faq-grid .downl-brochure {
+   margin-top: 35px;
+   background-color: var(--white-f1);
+   padding: 33px;
+   justify-content: space-between;
+   max-width: 370px;
+   max-height: 122px;
+}
+.faq-grid .downl-brochure h6{
+    margin: 0;
+    color: var(--orange);
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 1.3125rem;
+    line-height: 27px;
+} 
+.faq-grid .downl-brochure p{
+    margin: 10px 0 0;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: var(--gray-3);
+} 
+.faq-grid .downl-brochure a{
+    margin: 0;
+    font-weight: 400;
+    font-size: 3.75rem;
+    color: var(--gray-ba); 
+} 
+.faq-grid .downl-brochure a:hover{
+    color: var(--gray-2); 
+} 
+.faq-grid .downl-brochure i{
+    margin-left: 15px; 
+}
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
@@ -1882,6 +1963,16 @@ textarea {
         "col-3"
     }
     .urgent-single-grid .col-3{display: none;}
+    /*PAGE FAQ*/
+    .faq-grid{
+        padding: 115px 15px;
+        display: grid;
+        grid-gap:15px;
+        grid-template-columns: 1fr 390px;
+        grid-auto-rows: auto;
+        grid-template-areas: 
+        "col-1 col-2"
+    }
 }
 
 @media screen and (max-width: 950px){
@@ -2083,6 +2174,23 @@ textarea {
           "col-1"
           "col-2"
     }
+    /*PAGE FAQ*/
+    .faq-grid{
+        padding: 115px 15px;
+        display: grid;
+        grid-gap:15px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        grid-template-areas: 
+        "col-1"
+        "col-2"
+    }
+    .faq-grid .col-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }       
 
 @media screen and (min-width: 650px) {
