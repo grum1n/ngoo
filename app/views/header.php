@@ -62,7 +62,7 @@
                             <a href="pages.php?page=page404">404 Page</a>
                             <a href="pages.php?page=gallery">Gallery</a>
                             <a href="pages.php?page=testimonials">Testimonials</a>
-                            <a href="">News Grid</a>
+                            <a href="pages.php?page=news-grid">News Grid</a>
                             <a href="">News Sidebar</a>
                             <a href="">News Single</a>
                         </div>
