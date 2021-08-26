@@ -36,10 +36,10 @@
 <section class="white-container">
     <div class="container">
         <div class="faq-bottom">
-            <div class=" how-help-right">
+            <div class="faq-bottom-acordion">
                 <h1>General <span class="text-orange"> Questions</span></h1>
                 <p>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent.</p>
-                <div class="col-2 about-box-right">
+                <div class="faq-box-right">
                 <button class="accordion">Accusantium dolore mque</button>
                     <div class="panel">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
