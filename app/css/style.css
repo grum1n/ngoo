@@ -2143,6 +2143,13 @@ textarea {
     flex-wrap: wrap;
     justify-content: center;
 }
+.news a{
+    cursor: pointer;
+}
+.news a:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px var(--gray-2);
+}
 .news ul{
     list-style-type: none;
     margin: 0;
