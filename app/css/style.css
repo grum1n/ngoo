@@ -2034,6 +2034,9 @@ textarea {
     background-color: var(--gray-4);
     max-width: 570px;
 }
+.page404 .col-1 h3{
+   margin-top: 20px;
+}
 .page404 .col-2{align-items: center;}
 .page404 .col-2 p{
    margin : 20px 0; 
