@@ -61,14 +61,14 @@
             <p>Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sintoccaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <h5><span class="text-orange">Leave a Reply</span></h5>
             <p>Your email address will not be published. Required fields are marked *</p>
-            <form action="">
-                <label for="">Comment</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <label for="">Name *</label>
+            <form action="test/">
+                <label>Comment</label>
+                <textarea cols="30" rows="10"></textarea>
+                <label >Name *</label>
                 <input type="text">
-                <label for="">Email *</label>
+                <label>Email *</label>
                 <input type="text">
-                <label for="">Website</label>
+                <label>Website</label>
                 <input type="text">
                 <div class="check flex-container">
                     <input type="checkbox">
