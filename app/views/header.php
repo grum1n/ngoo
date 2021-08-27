@@ -37,6 +37,7 @@
                     <a href="index.php">Home</a>
                     <a href="pages.php?page=about">About</a>
                     <a href="pages.php?page=couses">Couses</a>
+                    <button>test</button>
                     <a href="">Pages</a>
                     <a href="pages.php?page=events">Events</a>
                     <a href="pages.php?page=contact">Contact</a>
