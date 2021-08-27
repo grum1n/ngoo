@@ -44,7 +44,7 @@
         </a>
     </div>
 </section>
-<section class="white-container">
+<div class="white-container">
     <div class="container flex-container news-pagination">
         <a href="">Previous</a>
         <a href="">1</a>
@@ -52,4 +52,4 @@
         <a href="">3</a>
         <a href="">Next</a>
     </div>
-</section>
+</div>
