@@ -2722,6 +2722,9 @@ textarea {
         "col-3"
         "col-4"
     }
+    .news-single .col-2 ul {
+        flex-wrap: wrap;
+    }
 }
 
 
