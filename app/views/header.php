@@ -37,8 +37,13 @@
                     <a href="index.php">Home</a>
                     <a href="pages.php?page=about">About</a>
                     <a href="pages.php?page=couses">Couses</a>
-                    <button>test</button>
-                    <a href="">Pages</a>
+                    <a href="pages.php?page=faq">FAQ</a>
+                            <a href="pages.php?page=team">Team</a>
+                            <a href="pages.php?page=page404">404 Page</a>
+                            <a href="pages.php?page=gallery">Gallery</a>
+                            <a href="pages.php?page=testimonials">Testimonials</a>
+                            <a href="pages.php?page=news-grid">News Grid</a>
+                            <a href="pages.php?page=news-grid-single">News Single</a>
                     <a href="pages.php?page=events">Events</a>
                     <a href="pages.php?page=contact">Contact</a>
                  </div>
