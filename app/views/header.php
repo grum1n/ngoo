@@ -63,8 +63,7 @@
                             <a href="pages.php?page=gallery">Gallery</a>
                             <a href="pages.php?page=testimonials">Testimonials</a>
                             <a href="pages.php?page=news-grid">News Grid</a>
-                            <a href="">News Sidebar</a>
-                            <a href="">News Single</a>
+                            <a href="pages.php?page=news-grid-single">News Single</a>
                         </div>
                 </li>
                 <li><a href="pages.php?page=events">Events <i class="text-orange fas fa-plus"></i></a></li>

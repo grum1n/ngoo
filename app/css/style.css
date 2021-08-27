@@ -2197,6 +2197,15 @@ textarea {
     color: var(--white);
 }
 
+/*PAGE NEWS SINGLE*/
+.news-single {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "col-1 col-2"
+}
+
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
