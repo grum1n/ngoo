@@ -1,41 +1,41 @@
 <section class="white-container">
     <div class="container news">
-        <a href="">
+        <a href="pages.php?page=news-grid-single">
             <ul class="flex-col-1">
                 <li><img src="app/images/pexels-matters-m.jpg" alt="Co founder 2"></li>
                 <li><h5>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque...</h5></li>
                 <li><h6><i class="far fa-clock"></i> Apr 25,2017 <i class="far fa-comment"></i> 0 Comments</h6></li>
             </ul>
         </a>
-        <a href="">
+        <a href="pages.php?page=news-grid-single">
             <ul class="flex-col-1">
                 <li><img src="app/images/pexels-matters-m.jpg" alt="Co founder 2"></li>
                 <li><h5>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque...</h5></li>
                 <li><h6><i class="far fa-clock"></i> Apr 25,2017 <i class="far fa-comment"></i> 0 Comments</h6></li>
             </ul>
         </a>
-        <a href="">
+        <a href="pages.php?page=news-grid-single">
             <ul class="flex-col-1">
                 <li><img src="app/images/pexels-matters-m.jpg" alt="Co founder 2"></li>
                 <li><h5>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque...</h5></li>
                 <li><h6><i class="far fa-clock"></i> Apr 25,2017 <i class="far fa-comment"></i> 0 Comments</h6></li>
             </ul>
         </a>
-        <a href="">
+        <a href="pages.php?page=news-grid-single">
             <ul class="flex-col-1">
                 <li><img src="app/images/pexels-matters-m.jpg" alt="Co founder 2"></li>
                 <li><h5>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque...</h5></li>
                 <li><h6><i class="far fa-clock"></i> Apr 25,2017 <i class="far fa-comment"></i> 0 Comments</h6></li>
             </ul>
         </a>
-        <a href="">
+        <a href="pages.php?page=news-grid-single">
             <ul class="flex-col-1">
                 <li><img src="app/images/pexels-matters-m.jpg" alt="Co founder 2"></li>
                 <li><h5>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque...</h5></li>
                 <li><h6><i class="far fa-clock"></i> Apr 25,2017 <i class="far fa-comment"></i> 0 Comments</h6></li>
             </ul>
         </a>
-        <a href="">
+        <a href="pages.php?page=news-grid-single">
             <ul class="flex-col-1">
                 <li><img src="app/images/pexels-matters-m.jpg" alt="Co founder 2"></li>
                 <li><h5>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque...</h5></li>

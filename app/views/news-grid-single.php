@@ -6,5 +6,5 @@
 </section>
 <?php
 //NEWS GRID
-include('app/views/inc/news-grid-single.php');
+include('app/views/inc/news-grid-single-content.php');
 ?>
