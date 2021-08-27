@@ -2199,13 +2199,188 @@ textarea {
 
 /*PAGE NEWS SINGLE*/
 .news-single {
+    margin-top: 115px;
+    margin-bottom: 60px;
+    text-align: left;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-auto-rows: auto;
     grid-template-areas: 
     "col-1 col-2"
 }
-
+.news-single-about {
+    text-align: left;
+    margin-bottom: 60px;
+}
+.news-single .news-single-about h5{
+    margin: 0;
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 36px;
+    color: var(--orange);
+} 
+.news-single .news-single-about p{
+    margin: 31px 0 0;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    columns: var(--gray-3);
+}
+.news-single .col-1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    background-color: var(--orange);
+    color: var(--white);
+}
+.news-single .col-1 li{
+    margin: 0;
+    padding: 5px 0;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+}
+.news-single .col-1 li:first-child{
+    font-weight: 900;
+    font-size: 3.75rem;
+    line-height: 60px;
+}
+.news-single .col-1 li h6{
+    margin: 0 0 20px;
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 36px;
+    color: var(--white);
+}
+.news-single .col-1 li:last-child{
+    margin: 30px 0 0;
+}
+.news-single .col-1 .downl-brochure {
+    margin: 40px 0;
+    padding: 30px;
+    background-color: var(--white-f1);
+    color:var(--gray-3);
+    justify-content: space-between;
+}
+.news-single .col-1 .downl-brochure h6{
+    margin: 0;
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 1.3125rem;
+    line-height: 27px;
+    color: var(--orange);
+}
+.news-single .col-1 .downl-brochure p{
+    margin: 8px 0 0;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+}
+.news-single .col-1 .downl-brochure a{
+    margin: 0;
+    font-weight: 400;
+    font-size: 3.75rem;
+    color: var(--gray-ba); 
+}
+.news-single .col-1 .downl-brochure a:hover{
+    color: var(--gray-2);
+}
+.news-single .news-single-contact{margin: 10px;}
+.news-single .news-single-contact h5{
+    margin: 0 0 20px;
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 36px;
+    color: var(--orange);
+} 
+.news-single .news-single-contact div{
+    margin: 10px 0;
+    align-items: center;
+}
+.news-single .col-2{padding: 10px;}
+.news-single .col-2 img {
+    max-width: 769px;
+    display: block;
+}
+.news-single .col-2 h5 {
+    margin: 0;
+    padding: 30px 0;
+    font-family: var(--lora);
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 36px;
+    color: var(--gray-2);
+}
+.news-single .col-2 ul {
+    margin:10px 0;
+    padding: 0;
+    justify-content: space-between;
+    list-style-type: none;
+    color: var(--gray-3);
+}
+.news-single .col-2 p {
+    margin: 0;
+    padding: 10px 0;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: var(--gray-3);
+}
+.news-single .col-2 div.note{
+    background-color: var(--white-f1);
+    padding: 25px 30px;
+    border-left: 4px solid var(--orange);
+}
+.news-single .col-2 div.note p:last-child{
+    color: var(--black);
+}
+.news-single .col-2 h3{
+    margin: 40px 0 0;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 23px;
+    color: var(--black);
+}
+.news-single .col-2 ol{
+    margin:10px 0;
+    padding: 10px 30px 0;
+    color: var(--gray-2);
+}
+.news-single .col-2 li{
+    margin: 0;
+    padding: 5px 0;
+}
+.news-single .col-2 form {
+    color: var(--gray-2);
+    font-family: var(--roboto);
+    font-size: 1rem;
+    line-height: 19px;
+}
+.news-single .col-2 form > label {
+    margin: 0;
+    padding: 20px 10px 5px;
+    display: block;
+}
+.news-single .col-2 form > input {
+   color: var(--gray-2);
+}
+.news-single .col-2 form > div.check{
+    align-items: center;
+}
+.news-single .col-2 form > div.check p{
+    margin-left: 10px;
+}
+.news-single .col-2 form > button {
+    margin: 15px 0;
+}
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
 /*MEDIA SCREEN !!!*/
