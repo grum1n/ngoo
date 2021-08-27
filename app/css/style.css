@@ -2203,11 +2203,13 @@ textarea {
     margin-bottom: 60px;
     text-align: left;
     display: grid;
+    grid-gap: 30px;
     grid-template-columns: 1fr 2fr;
     grid-auto-rows: auto;
     grid-template-areas: 
     "col-1 col-2"
 }
+.news-flex-col-1 {display: flex;flex-direction: column;}
 .news-single-about {
     text-align: left;
     margin-bottom: 60px;
@@ -2305,7 +2307,7 @@ textarea {
 }
 .news-single .col-2{padding: 10px;}
 .news-single .col-2 img {
-    max-width: 769px;
+    width: 100%;
     display: block;
 }
 .news-single .col-2 h5 {
@@ -2439,6 +2441,28 @@ textarea {
         grid-auto-rows: auto;
         grid-template-areas: 
         "col-1 col-2"
+    }
+    /*PAGE NEWS SINGLE*/
+    .news-single {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        text-align: left;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        grid-template-areas: 
+        "col-1"
+        "col-2"
+    }
+    .news-flex-col-1 {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        grid-template-areas: 
+        "col-1 col-3"
+        "col-2 col-4"
     }
 }
 @media screen and (max-width: 950px){
@@ -2685,6 +2709,21 @@ textarea {
     }
 
 }       
+@media screen and (max-width: 700px){
+    /*PAGE news-grid-single-content*/
+    .news-flex-col-1 {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        grid-template-areas: 
+        "col-1"
+        "col-2"
+        "col-3"
+        "col-4"
+    }
+}
+
 
 @media screen and (min-width: 650px) {
     /*top white-line*/

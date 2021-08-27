@@ -1,25 +1,25 @@
 <section class="white-container">
     <div class="container news-single">
-        <div class="col-1 flex-col-1">
-            <div class="news-single-about">
+        <div class="col-1 news-flex-col-1">
+            <div class="col-1 news-single-about">
                 <h5>About Company</h5>
                 <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
             </div>
-            <ul>
+            <ul class="col-2">
                 <li><i class="fas fa-bullhorn"></i></li>
                 <li><h6>Become a Volunteer</h6></li>
                 <li>We need you now for world</li>
                 <li>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</li>
                 <li><button class="c2">JOIN US NOW</button></li>
             </ul>
-            <div class="downl-brochure flex-container">
+            <div class="col-3 downl-brochure flex-container">
                 <div>
                     <h6>Download Brochure</h6>   
                     <p>Click here to download .PDF</p>
                 </div>
                 <a href=""><i class="fas fa-file-pdf"></i></a>
             </div>
-            <div class="news-single-contact ">
+            <div class="col-4 news-single-contact ">
                 <h5>Contact Info</h5>
                 <div class="events-single-info-row flex-container">
                     <a href="https://goo.gl/maps/hnLKFDETpUnYTbQv8" target="_blank"><i class="events-single-info-icon fas fa-map"></i></a>  
