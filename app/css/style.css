@@ -430,7 +430,6 @@ header .white-container .flex-row a:hover{color: var(--orange);}
 } 
 .dropdown .dropdown-content a:hover {background-color: var(--gray-ba);color: var(--gray-2);}
 .show {display: block;}
-
 /*MAIN*/
 /*HERO ngoo-Slideshow container */
 .ngoo-slideshow-container {

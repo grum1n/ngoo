@@ -54,7 +54,7 @@
             <li class="col-4"><button class="g1"><span>DONATE NOW</span></button></li>
         </ul>
     </div>
-    <div class="gray-3-container">
+    <div class="gray-3-container" id="activeLinks">
         <div class="container">
             <ul>
                 <li><a href="index.php">Home <i class="text-orange fas fa-plus"></i></a></li>

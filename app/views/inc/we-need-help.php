@@ -49,7 +49,7 @@
             </a>
         </div>
         <div class="we-need-button">
-            <a href="">SEE ALL CAUSE</a>
+            <a href="pages.php?page=couses">SEE ALL CAUSE</a>
         </div>
     </div>
 </section>
