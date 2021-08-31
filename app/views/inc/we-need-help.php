@@ -5,7 +5,7 @@
             <p class="text-small">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="help flex-container">
-            <a href="">
+            <a href="pages.php?page=couses-single">
             <div class="col-1 need-help-box">
                 <img src="app/images/education.jpg" alt="Education">
                 <div>
@@ -19,7 +19,7 @@
                 </div>
             </div>
             </a>
-            <a href="">
+            <a href="pages.php?page=couses-single">
             <div  class="col-2 need-help-box">
                 <img src="app/images/home-children.jpg" alt="home children">
                 <div>
@@ -33,7 +33,7 @@
                 </div> 
             </div>
             </a>
-            <a href="">
+            <a href="pages.php?page=couses-single">
             <div class="col-3 need-help-box">
                 <img src="app/images/water.jpg" alt="water">
                 <div>
